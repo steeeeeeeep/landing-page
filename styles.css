@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body , html {
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    background-color: linear gradient(60deg, pink blue);
+    
+}
