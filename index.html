@@ -5,12 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react.production.min.js"></script>
     <title>Rapid Signal Electronics</title>
 </head>
 <body>
     <div class="container">
-            <h1>Landing Page</h1>
-        <h1>This is Logo</h1>
+        <h1>Landing Page</h1>
+        <br>
+        <div>This is Logo</div>
+        <br>
         <div id="nav-bar">
             <a href="">Home</a>
             <a href="">About</a>
@@ -20,7 +24,7 @@
             <a href="">Logout</a>
             
         </div>
-        <div class="main-page">
+        <div id="main-page" class="main-page">
             <div class="section1">
 
             </div>
@@ -43,5 +47,13 @@
             </div>
         </div>
     </div>
+    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <!-- Babel Script -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="text/jsx">
+      const app = document.getElementById('app');
+      ReactDOM.render(<h1>Develop. Preview. Ship. 🚀</h1>, app);
+    </script>
 </body>
 </html>
